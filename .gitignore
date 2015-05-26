@@ -1,0 +1,6 @@
+log/newrelic_agent.log
+newrelic.yml
+local.0
+local.ns
+new_mydb.*
+journal/*
