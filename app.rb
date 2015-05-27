@@ -10,7 +10,8 @@ db = MongoClient.new("localhost", 27017).db("new_mydb")
 coll = db.collection("testCollection")
 
 get '/' do
-	coll.find()	
+	@items = coll.find()
+	erb :home	
 end
 
 get '/:word'do

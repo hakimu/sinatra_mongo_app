@@ -1,0 +1,10 @@
+<html>
+<head>
+	<title>Sinatra Mongo App</title>
+</head>
+<body>
+	<% @items.each do |stuff| %>
+	 <p><%= stuff["item"]%></p>
+	 <% end %>
+</body>
+</html>
